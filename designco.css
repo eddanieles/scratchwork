@@ -1,8 +1,12 @@
+
+
 #nav {
   background-color: #e5e5e5;
   padding: 20px 0px 20px 0px;
   margin-bottom: 15px;
-
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 #nav_container {
@@ -46,9 +50,15 @@
   width: 30%;
   margin: auto;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
+
+#heading {
+  margin: 200px auto 0;
+}
+
+
 
 .wrapper {
   width: 75%;
