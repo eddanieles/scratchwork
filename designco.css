@@ -14,9 +14,6 @@
   width: 25%;
 }
 
-#nav_container img{
-  width: 100%;
-}
 
 
 
@@ -30,12 +27,20 @@
   display: inline-block;
 }
 
+#logo img {
+  width: 100%;
+}
 
 
 #search {
   display: inline-block;
   float: right;
 }
+
+#search img {
+  width: 20%;
+}
+
 
 #heading_container {
   width: 30%;
