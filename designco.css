@@ -66,3 +66,23 @@
 .images {
   margin: 5px;
 }
+
+#footer {
+  width: 75%;
+  margin: auto;
+}
+
+#whats_new {
+  float: left;
+  display: inline-block;
+}
+
+#modern_layouts {
+  float: right;
+  display: inline-block;
+}
+
+.modern_layouts {
+  column-count: 3;
+  column-gap: normal;
+}
