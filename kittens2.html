@@ -7,6 +7,7 @@
       #nav {
         background-color: #e5e5e5;
         padding: 20px 0px 20px 0px;
+        margin-bottom: 15px;
       }
 
       .links {
@@ -22,53 +23,52 @@
         color: blue;
       }
 
-      .box {
-        width: 350px;
+      .container {
+        width:100%;
+        margin-left: 10px;
+      }
+
+      .column {
+        width:31%;
+        float:left;
+        margin-right: 10px;
+      }
+
+      .column img {
+        width: 95%;
+        height:auto;
+        border: solid;
+        border-width: thin;
+        border-color: #e5e5e5;
+        padding: 5px 5px 5px 5px;
+      }
+
+      .descriptions {
         border-bottom: solid;
         border-width: thin;
         border-color: #e5e5e5;
+        margin-right: 5.3px;
+        margin-top: 0px;
+      }
+
+      p {
+        display: inline-block;
+        color: #e5e5e5;
       }
 
       .captions {
         float: right;
+        color: gray;
       }
 
-      .likes {
-        float: left;
-      }
-
-      .descriptions {
-        display: inline-block;
-        width: 350px;
-      }
-
-      .descriptions img {
-        height: 20px;
+      .descriptions img{
         width: 20px;
-      }
-
-      figure img {
-        width: auto;
-        height: auto;
-        border: solid;
-        border-width: thin;
-        padding: 5px 5px 5px 5px;
-        border-color: #e5e5e5;
-      }
-
-      .captions img {
-        padding: 0px 0px 0px 0px;
+        height: 20px;
         border: none;
+        padding-bottom: 0px;
+        padding-right: 0px;
       }
 
-      .container {
-        width:100%;
-      }
-
-      .column {
-        width:33.33333333%;
-        float:left;
-      }
     </style>
     </head>
 
@@ -80,23 +80,37 @@
         <a class="links" href="#"><strong>RSS</strong></a>
       </div>
 
-    <div class="container">
-      <div class="column">
 
-        <figure>
-          <img class="cats" src ="https://octodex.github.com/images/grinchtocat.gif">
+      <div class="container">
 
-          <div class="box">
+        <div class="column">
+            <img src="https://octodex.github.com/images/grinchtocat.gif" />
+            <div class="descriptions">
+              <p class="likes"><strong>#111</strong></p>
+              <p class="captions"><strong>the <a href="#">Grinchtocat</a> by
+                <img src="https://github.com/tonyjaramillo.png"></strong></p>
+            </div>
+        </div>
 
-          <figcaption class="descriptions">
-            <p class="likes">#111</p>
-            <p class="captions"><strong>the <a href="#">Grinchtocat</a> by
-              <img src="https://github.com/cameronmcefee.png"></strong></p>
-          </figcaption>
+        <div class="column">
+            <img src="https://octodex.github.com/images/ironcat.jpg" />
+            <div class="descriptions">
+              <p class="likes"><strong>#25</strong></p>
+              <p class="captions"><strong>the <a href="#">IronCat</a> by
+                <img src="https://github.com/cameronmcefee.png"></strong></p>
+            </div>
+        </div>
 
-          </div>
-        </figure>
+        <div class="column">
+            <img src="https://octodex.github.com/images/nyantocat.gif" />
+            <div class="descriptions">
+              <p class="likes"><strong>#47</strong></p>
+              <p class="captions"><strong>the <a href="#">Nyantocat</a> by
+                <img src="https://github.com/cameronmcefee.png"></strong></p>
+            </div>
+        </div>
+
       </div>
-    </div>
+
   </body>
 </html>
