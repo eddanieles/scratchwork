@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kittens 2</title>
+    <style>
+      #nav {
+        background-color: #e5e5e5;
+        padding: 20px 0px 20px 0px;
+      }
+
+      .links {
+        float: right;
+        padding: 5px 5px 5px 5px;
+        margin-right: 10px;
+      }
+
+      #home {
+        display: inline;
+        margin-left: 10px;
+        font-size: 30px;
+        color: blue;
+      }
+
+      .box {
+        width: 350px;
+        border-bottom: solid;
+        border-width: thin;
+        border-color: #e5e5e5;
+      }
+
+      .captions {
+        float: right;
+      }
+
+      .likes {
+        float: left;
+      }
+
+      .descriptions {
+        display: inline-block;
+        width: 350px;
+      }
+
+      .descriptions img {
+        height: 20px;
+        width: 20px;
+      }
+
+      figure img {
+        width: auto;
+        height: auto;
+        border: solid;
+        border-width: thin;
+        padding: 5px 5px 5px 5px;
+        border-color: #e5e5e5;
+      }
+
+      .captions img {
+        padding: 0px 0px 0px 0px;
+        border: none;
+      }
+
+      .container {
+        width:100%;
+      }
+
+      .column {
+        width:33.33333333%;
+        float:left;
+      }
+    </style>
+    </head>
+
+  <body>
+      <div id="nav">
+        <p id="home"><strong>Shirtworthy Kittens</strong></p>
+        <a class="links" href="#"><strong>Back to GitHub</strong></a>
+        <a class="links" href="#"><strong>FAQ</strong></a>
+        <a class="links" href="#"><strong>RSS</strong></a>
+      </div>
+
+    <div class="container">
+      <div class="column">
+
+        <figure>
+          <img class="cats" src ="https://octodex.github.com/images/grinchtocat.gif">
+
+          <div class="box">
+
+          <figcaption class="descriptions">
+            <p class="likes">#111</p>
+            <p class="captions"><strong>the <a href="#">Grinchtocat</a> by
+              <img src="https://github.com/cameronmcefee.png"></strong></p>
+          </figcaption>
+
+          </div>
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>
