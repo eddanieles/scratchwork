@@ -10,9 +10,15 @@
   margin: auto;
 }
 
-#nav_container img{
-  width: 30%;
+#nav_container p {
+  width: 25%;
 }
+
+#nav_container img{
+  width: 100%;
+}
+
+
 
 .links {
   padding: 5px 5px 5px 5px;
@@ -22,6 +28,8 @@
 #logo {
   display: inline-block;
 }
+
+
 
 #search {
   display: inline-block;
