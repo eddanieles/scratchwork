@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   top: 0px;
+  right: 0px;
 }
 
 #nav_container {
@@ -35,7 +36,8 @@
 
 #logo {
   display: inline-block;
-  width: 175px;
+  width: 125px;
+  padding-right: 15px;
 }
 
 #logo img {
