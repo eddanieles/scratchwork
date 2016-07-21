@@ -85,22 +85,30 @@
 
 
 
+#footer div {
+  display: inline-block;
+}
+
 #footer {
   width: 75%;
   margin: auto;
 }
 
-#whats_new {
-  float: left;
-  display: inline-block;
-}
-
-#modern_layouts {
-  float: right;
-  display: inline-block;
-}
-
 .modern_layouts {
+  float: right;
+  width: 500px;
+}
+
+.layouts_paragraph {
   column-count: 3;
   column-gap: normal;
+}
+
+.whats_new {
+  width: 250px;
+  float: left;
+}
+
+.whats_new h3 {
+  color: red;
 }
