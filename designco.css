@@ -48,10 +48,11 @@
 #search {
   display: inline-block;
   float: right;
+  width: 25px;
 }
 
 #search img {
-  width: 35%;
+  width: 100%;
 }
 
 
@@ -73,6 +74,8 @@
   width: 75%;
   margin:auto;
   max-width: 879px;
+  column-count: 2;
+  column-gap: normal;
 }
 
 .flex-container {
@@ -82,6 +85,7 @@
 
 .images {
   margin: 5px;
+
 }
 
 
